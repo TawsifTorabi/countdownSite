@@ -1,0 +1,112 @@
+body {
+    background-color: #fff;
+    font-family: Siyam Rupali;
+	font-size: 13px;
+    color: white;
+	margin: 0px;
+	background: url(img/bg.jpg) no-repeat center center fixed;
+	background-size: cover;
+}
+
+a, a:visited{
+	color: black;
+	font-weight: bold;
+}
+#preloader{
+    top: 0px;
+    position: fixed;
+    width: 100%;
+    background: rgba(114, 211, 255, 0.88);
+    height: 100%;
+    z-index: 99999;
+}
+#loadingtxt{
+	font-size: 50px;
+	background-color: white;
+	color: skyblue;
+	padding: 7px;
+	border-radius: 6px;
+	position: fixed;
+	z-index: 9999999;
+	top: 45%;
+	left: 37%;
+}
+
+#timerone {
+	font-size: 50px;
+}
+#timertwo {
+    font-size: 30px;
+    margin-top: -40px;
+    margin-bottom: -২0px;
+}
+#days{
+	font-size: 80px;
+	margin-bottom: -9px;
+}
+.timer-after{
+	font-size: 22px;
+	text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.46);
+}
+.footer {
+    background-color: rgb(114, 211, 255);
+    padding-top: 25px;
+    padding-bottom: 25px;
+    width: 100%;
+    position: absolute;
+    clear: both;
+    height: auto;
+    color: black;
+	    box-shadow: 1px 1px 17px black;
+}
+.header {
+    top: 0px;
+    position: fixed;
+    width: 100%;
+    background: rgba(114, 211, 255, 0.88);
+    height: 65px;
+    z-index: 9999;
+	box-shadow: 1px 1px 3px black;
+}
+.toplinkscontainer {
+    float: right;
+    margin-top: 15px;
+    margin-right: 7px;
+}
+.responsive-toplinkscontainer {
+    float: right;
+    margin-top: 15px;
+    margin-right: 7px;
+}
+.toplinks {
+    padding: 10px 15px;
+    color: white;
+    text-decoration: none;
+    transition: 0.1s;
+}
+.countdown-container{
+	background-color: rgba(101, 199, 249, 0.36);
+	box-shadow: 1px 1px 17px black;
+}
+
+
+
+
+@media (max-width: 1000px){
+.toplinkscontainer {
+    display: none;
+}
+}
+
+@media (max-width: 400px){
+#reslinks {
+    width: 200px;
+}
+#preloader{display: none;}
+}
+
+@media (min-width: 1000px)
+{
+	.responsive-toplinkscontainer {
+    display: none;
+}}

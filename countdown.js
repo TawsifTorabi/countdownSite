@@ -27,4 +27,4 @@ var x = setInterval(function() {
         clearInterval(x);
         document.getElementById("demo").innerHTML = "এখনি প্রকাশ হবে!";
     }
-}, 1000);
+}, 1000); 
